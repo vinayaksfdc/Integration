@@ -1,0 +1,13 @@
+<apex:page controller="HttpExample2">
+<apex:form >
+    <apex:pageBlock >
+    <apex:inputText value="{!pincode}"/>
+    <apex:commandButton value="GetData" action="{!getDetails}"/>
+       <apex:pageBlockTable value="{!places}" var="a" rendered="{! !isNull(places)}">
+	<apex:column value="{!a}"/>
+    </apex:pageBlockTable>
+    </apex:pageBlock>
+    
+    </apex:form>
+          
+</apex:page>

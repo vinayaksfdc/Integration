@@ -1,0 +1,14 @@
+<apex:page controller="Json_ex2">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:commandButton value="Request TOkent" action="{!send1}"  />
+            {!str}
+            <apex:pageBlockTable value="{!accList}" var="a">
+                <apex:column value="{!a.name}" headerValue="name"/>
+                <apex:column value="{!a.phone}" headerValue="phone"/>	
+                <apex:column value="{!a.industry}" headerValue="industry"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>    
+    </apex:form>
+    
+</apex:page>

@@ -1,0 +1,4 @@
+<apex:page controller="student_json3" >
+    
+    {!std}
+</apex:page>

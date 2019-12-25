@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:attribute name="myName" type="String" />
+	            <aura:handler name="firstCall" event="c:firstEvent" action="{!c.invoke}" />
+    <c:child></c:child>
+</aura:component>

@@ -1,0 +1,10 @@
+<apex:page controller="ex1">
+             <apex:form >
+    	<apex:pageBlock title="JSON_Example" id="one">
+            <apex:inputTextArea rows="5" cols="100" value="{!jsonString}" /> <br/>
+            <apex:commandButton value="Submit" action="{!getToken}" reRender="one"/>
+            <br/><br/>
+            Access Token :{!accessToken}
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

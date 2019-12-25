@@ -1,0 +1,10 @@
+<aura:component >
+    <aura:attribute name="name" type="string" />
+    <aura:attribute name="age" type="integer" />
+    
+    
+    <div>
+     <lightning:input type="string" name="input1" label="Enter a number" value="{!v.name}" />
+    <lightning:input type="number" name="input1" label="Enter age" value="{!v.name}" />
+    </div>
+</aura:component>

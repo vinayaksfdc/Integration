@@ -1,0 +1,16 @@
+<apex:page controller="Httppostalcode">
+    <apex:form >
+        <apex:pageblock Title="Account">
+            <apex:pageBlockButtons location="Top">
+                <apex:commandButton value="GEt Code" action="{!callme}"/>
+                
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:outputLabel > CityName</apex:outputLabel>      	<apex:inputtext value="{!cityName}"/>
+                
+            </apex:pageBlockSection> 
+            {!JsonString}
+            Pincode is &nbsp;&nbsp; {!pincode}
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

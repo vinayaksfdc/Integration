@@ -1,0 +1,9 @@
+<apex:page controller="Std_4">
+    <apex:pageblock >
+<apex:pageBlockTable value="{!resMap}" var="a">      
+        <apex:column value="{!a}" headervalue="Key"/>
+        <apex:column value="{!resMap[a]}" headervalue="value"/>
+    </apex:pageBlockTable>  
+        </apex:pageblock>
+     
+    </apex:page>

@@ -1,0 +1,16 @@
+<apex:page controller="ex">
+    <apex:form >
+       <apex:pageblock >
+           <br/><br/><br/> 
+          			{!a}{!b}{!c}{!d}
+           <br/><br/><br/>
+      </apex:pageblock> 
+        <apex:pageblock >
+        <apex:commandButton value="1" action="{!n1}"/>
+        <apex:commandButton value="2" action="{!n2}"/>
+         <apex:commandButton value="3" action="{!n3}"/>
+        <apex:commandButton value="4" action="{!n4}"/>
+              <apex:commandButton value="res" action="{!res}"/>
+             </apex:pageblock>
+    </apex:form>   
+</apex:page>

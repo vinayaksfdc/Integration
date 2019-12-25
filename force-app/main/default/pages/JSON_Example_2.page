@@ -1,0 +1,8 @@
+<apex:page controller="JSON_Example_2">
+ 
+ {!age}  <br/>
+   {!acc} 
+ 
+     
+ 
+</apex:page>

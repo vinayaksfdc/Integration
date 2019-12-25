@@ -1,0 +1,21 @@
+<apex:page controller="jsonex12">
+ 	<apex:form >
+    	<apex:pageBlock >
+    		Enter JSON VAlue <apex:inputTextarea rows="10" cols="200"  value="{!jsonstring}"/>    
+            <apex:commandButton value="Submit" action="{!getData}"/>
+         
+        <br/><br/>
+         value of id is 	 {!id1} <br/><br/>
+         value of issued at is	 {!issued_at1}<br/><br/>
+         value of refresh tokken is   {!refresh_token1}<br/><br/>
+         value of instance url    {!instance_url1}<br/><br/>
+ 	     value of acces token is     {!access_token1}<br/><br/>
+  		 value of signature is    {!signature1}<br/><br/>
+            
+         
+
+            
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

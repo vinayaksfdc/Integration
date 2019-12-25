@@ -1,0 +1,4 @@
+<apex:page controller="json_example2">
+    {!result} <br/><br/>
+    {!result1}
+</apex:page>
